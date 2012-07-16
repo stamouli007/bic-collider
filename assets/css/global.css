@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	width:100%;
+	height:1000px;
+	background:url(../images/tmp/bg.jpg) no-repeat center 0 #000;
+	margin:0; 
+	padding:0;
+}
+
+#flashContent {
+	height: 480px;
+    left: -50px;
+    margin: auto;
+    position: relative;
+    top: 327px;
+    width: 850px;
+}
+
+
+/**************
+   Share Btns 
+***************/
+.share-btns {
+	height: 500px;
+    left: 435px;
+    margin: 0 auto;
+    position: relative;
+    top: -160px;
+    width: 95px;
+}
+.at300b {
+	width:95px;
+	height:90px;
+	display:block;
+	background:url(../images/sprite/share.png) no-repeat 0 0;
+}
+.at300b:hover {
+	opacity:1;
+}
+
+.addthis_button_facebook {
+	background-position:-15px -10px;
+	padding-bottom:10px;
+}
+.addthis_button_facebook:hover {
+	background-position:-115px -10px;
+}
+.addthis_button_twitter {
+	background-position:-5px -115px;
+	padding-bottom:10px;
+}
+.addthis_button_twitter:hover {
+	background-position:-105px -115px;
+}
+.addthis_button_stumbleupon {
+	background-position:-5px -215px;
+}
+.addthis_button_stumbleupon:hover {
+	background-position:-105px -215px;
+}
+.addthis_button_reddit {
+	background-position:-2px -305px;
+}
+.addthis_button_reddit:hover {
+	background-position:-102px -305px;
+}
+.addthis_button_email {
+	background-position:0 -390px;
+	height:82px;
+}
+.addthis_button_email:hover {
+	background-position:-100px -390px;
+}
+
+
+.embed-code {
+	background:url(../images/sprite/share.png) no-repeat 0 -475px;
+	display:block;
+	width:100px;
+	height:40px;
+	cursor:pointer;
+}
+.embed-code:hover {
+	background-position:-100px -475px;
+}
+ 
+ 
+ 
